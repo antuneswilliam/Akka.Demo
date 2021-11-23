@@ -1,0 +1,14 @@
+<Project Sdk="Microsoft.NET.Sdk.Worker">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <UserSecretsId>dotnet-Akka.Worker.Demo-D4DC98B2-1D96-4307-BB9B-88E19C7D683D</UserSecretsId>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Akka" Version="1.4.28" />
+    <PackageReference Include="Akka.DI.Core" Version="1.4.28" />
+    <PackageReference Include="Akka.DI.Extensions.DependencyInjection" Version="1.4.22" />
+    <PackageReference Include="Microsoft.Extensions.Hosting" Version="3.1.20" />
+  </ItemGroup>
+</Project>
