@@ -28,7 +28,7 @@ namespace Akka.Demo
             Console.WriteLine("Type 'exit' to quit");
             Console.WriteLine("Type 'arg' to test ArgumentException and Resume the Actor");
             Console.WriteLine("Type 'null' to test NullReferenceException and Restart the Actor");
-            Console.WriteLine("Type 'null' to test a regular Exception and Stop the Actor");
+            Console.WriteLine("Type 'ex' to test a regular Exception and Stop the Actor");
             Console.WriteLine("Type any other message to test the Actor");
             Console.WriteLine("------------------------------------------------------------------");
             Console.WriteLine();
